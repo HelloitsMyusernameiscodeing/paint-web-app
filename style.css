@@ -1,0 +1,24 @@
+body{
+    text-align: center;
+    background-image: url("background.jpg");
+}
+#head{
+    font-size:50px ;
+    font-family: 'McLaren', cursive;
+}
+#TakeSnap{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#TakeSnap:hover{
+    background-color: burlywood;
+}
+canvas{
+    background-color: whitesmoke;
+    border-color: black;
+    border-style: dotted;
+    animation:ex 1s infinite;
+}
+@keyframes ex{
+   from{box-shadow: 1px 1px 38px red }
+   to{box-shadow:1px 1px 38px yellow}
+}
